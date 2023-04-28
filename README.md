@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Tree.ly Coding Assignment
 
-## Getting Started
+Implement an example section of a website as a React Component. You can find
+the Figma prototype of the section
+[here](https://www.figma.com/file/VtZfQgG19WyU7RJiYwTljD/Application-Task?type=design&node-id=0%3A1&t=bQ89KmZZEbD1MXAj-1)
+– the assets and fonts you need should lie next to this file.
 
-First, run the development server:
+## Requirements
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+- Please deliver the section as a React component embedded in a small project.
+- The project can be delivered as a link to a Git repository or as a ZIP file.
+- Feel free to use any React framework you are familiar with (Next.js, Gatsby,
+  ...). We are using Next.js.
+- The section should be responsive.
+- Any React component should include tests as well as Storybook stories.
+- Feel free to use any component library. We are using
+  [Boemly](https://boemly.tree.ly/). Keep in mind that your section should look
+  like the prototype in Figma.
+- Please deliver a Readme that provides documentation of how to run the project.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Optional requirements
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- The project is delivered in Typescript.
 
-[http://localhost:3000/api/hello](http://localhost:3000/api/hello) is an endpoint that uses [Route Handlers](https://beta.nextjs.org/docs/routing/route-handlers). This endpoint can be edited in `app/api/hello/route.ts`.
+## The evaluation focus lies on
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Correctness
+- Performance
+- Accessibility
+- Following best practices
+- The section looks like the prototype in Figma
+- Quality of the documentation
+- Communication with the Tree.ly team
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+If you have a question or want to discuss possible solutions feel free to
+contact the team. Communication is also part of the evaluation.
