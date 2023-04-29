@@ -4,91 +4,52 @@ import styles from './page.module.scss';
 export default function Home() {
   return (
     <main className={styles.main}>
-      <div className={styles.description}>
+      <div className={styles.mission}>
+        <h2>Mission</h2>
+        <h1>This is the headline</h1>
         <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.tsx</code>
+          Our mission? To make the protection of our natural resources more
+          valuable than its destruction. To shape our future for the better by
+          valuing its preservation. Together.
         </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+        <p>
+          That's why our diverse team found a new technology venture that
+          unlocks the carbon capture potential of out forests. How? By bringing
+          together forest owners, carbon offsetters and public authorities.
+        </p>
+        <button>Learn more about our mission</button>
+      </div>
+      <div className={styles.smallHeadline}>
+        <div className={styles.cart}>
+          <Image src="/Lightbulb.svg" width="30" height="30" alt="Lightbulb" />
+          <div>
+            <h3>Small Headline</h3>
+            <p>
+              Forest owners have accesss to expertise and inventory data needed
+              to make smart decisions about their forest assets.
+            </p>
+          </div>
         </div>
-      </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://beta.nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore the Next.js 13 playground.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
+        <div className={styles.cart}>
+          <Image src="/Coin.svg" width="30" height="30" alt="Coin" />
+          <div>
+            <h3>Small Headline</h3>
+            <p>
+              Forest owners know how to tap into the carbon market and generate
+              revenit from carbon in their forests.
+            </p>
+          </div>
+        </div>
+        <div className={styles.cart}>
+          <Image src="/Arrows.svg" width="30" height="30" alt="Arrows" />
+          <div>
+            <h3>Small Headline</h3>
+            <p>
+              Forest owners and carbon buyers can easily buy and sell European
+              carbon certificates on one platform.
+            </p>
+          </div>
+        </div>
       </div>
     </main>
   );
