@@ -19,10 +19,17 @@ export default function Home() {
         </p>
         <button>Learn more about our mission</button>
       </div>
-      <div className={styles.smallHeadline}>
-        <div className={styles.cart}>
-          <Image src="/Lightbulb.svg" width="30" height="30" alt="Lightbulb" />
-          <div>
+      <div className={styles.cards}>
+        <div className={styles.card}>
+          <div className={styles.iconCard}>
+            <Image
+              src="/Lightbulb.svg"
+              width="30"
+              height="30"
+              alt="Lightbulb"
+            />
+          </div>
+          <div className={styles.text}>
             <h3>Small Headline</h3>
             <p>
               Forest owners have accesss to expertise and inventory data needed
@@ -30,9 +37,11 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <div className={styles.cart}>
-          <Image src="/Coin.svg" width="30" height="30" alt="Coin" />
-          <div>
+        <div className={styles.card}>
+          <div className={styles.iconCard}>
+            <Image src="/Coin.svg" width="30" height="30" alt="Coin" />
+          </div>
+          <div className={styles.text}>
             <h3>Small Headline</h3>
             <p>
               Forest owners know how to tap into the carbon market and generate
@@ -40,9 +49,11 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <div className={styles.cart}>
-          <Image src="/Arrows.svg" width="30" height="30" alt="Arrows" />
-          <div>
+        <div className={styles.card}>
+          <div className={styles.iconCard}>
+            <Image src="/Arrows.svg" width="30" height="30" alt="Arrows" />
+          </div>
+          <div className={styles.text}>
             <h3>Small Headline</h3>
             <p>
               Forest owners and carbon buyers can easily buy and sell European
