@@ -4,7 +4,7 @@ import styles from './page.module.scss';
 export default function Home() {
   return (
     <main className={styles.main}>
-      <div className={styles.mission}>
+      <div className={styles.left}>
         <h2>Mission</h2>
         <h1>This is the headline</h1>
         <p>
