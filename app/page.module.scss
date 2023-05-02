@@ -5,11 +5,11 @@
   background-image: url('/Background-Shape.svg');
   background-repeat: no-repeat;
   background-position: right top;
-  height: 100vh;
+  // height: 100vh;
 }
 
 .left {
-  width: 44%;
+  width: 44vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -136,20 +136,29 @@
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 960px) {
   .main {
-    margin: auto;
-    margin-top: 18rem;
+    // margin: auto;
+    margin-top: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    gap: 32px;
     h3,
     p {
       margin: 0;
     }
   }
+  .left {
+    width: 80vw;
+  }
+  .cards {
+    width: 80vw;
+    margin-bottom: 15rem;
+  }
   .card {
-    width: 390px;
+    width: 80vw;
     // height: 48px;
   }
 }
