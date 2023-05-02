@@ -29,6 +29,7 @@
   }
 
   h1 {
+    margin: 0;
     font-family: 'GintoNord';
     font-style: normal;
     font-weight: 700;
@@ -38,6 +39,7 @@
   }
 
   p {
+    margin: 0;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -50,7 +52,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px 24px;
+    padding: 5px 12px;
     gap: 8px;
     width: 241px;
     height: 48px;
@@ -68,7 +70,7 @@
 }
 
 .cards {
-  width: 42%;
+  width: 40vw;
   font-family: 'Inter';
   display: flex;
   flex-direction: column;
@@ -131,6 +133,24 @@
   img {
     width: 22px;
     height: 24px;
+  }
+}
+
+@media (max-width: 700px) {
+  .main {
+    margin: auto;
+    margin-top: 18rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    h3,
+    p {
+      margin: 0;
+    }
+  }
+  .card {
+    width: 390px;
+    // height: 48px;
   }
 }
 /* Enable hover only on non-touch devices */
