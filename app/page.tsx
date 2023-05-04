@@ -10,7 +10,8 @@ export default function Home() {
         <p>
           Our mission? To make the protection of our natural resources more
           valuable than its destruction. To shape our future for the better by
-          valuing its preservation. Together.
+          valuing its preservation. <br />
+          Together.
         </p>
         <p>
           That's why our diverse team found a new technology venture that
