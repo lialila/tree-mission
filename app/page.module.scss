@@ -157,6 +157,7 @@
 
 @media (min-width: 701px) and (max-width: 1100px) {
   .main {
+    margin-top: 4rem;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -204,9 +205,11 @@
     width: 80vw;
 
     .mission,
-    button,
-    h1 {
+    button {
       align-self: center;
+    }
+    h1 {
+      text-align: center;
     }
   }
   .cards {
