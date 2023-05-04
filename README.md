@@ -45,6 +45,8 @@ The component is responsive for mobile, tablet, and desktop. Additionally, the c
 ![Screenshot 2023-05-04 233226_iphone12black_portrait](https://user-images.githubusercontent.com/116379561/236337927-6236cc63-56ab-4e14-8f52-33bc9ccacb82.png)
 
 - The image is on the top of the text
+  ![Screenshot 2023-05-05 003016_iphone12black_portrait](https://user-images.githubusercontent.com/116379561/236348222-28a22869-0bd2-471b-8248-79692d82ec25.png)
+  ![Screenshot 2023-05-05 003053_iphone12black_portrait](https://user-images.githubusercontent.com/116379561/236348243-760ecfa9-c4cc-40f3-a644-20ad72569ffc.png)
 
 ## Dependencies
 
