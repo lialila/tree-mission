@@ -1,3 +1,5 @@
+// Shared styles
+
 .main {
   display: flex;
   justify-content: space-evenly;
@@ -7,10 +9,25 @@
   background-position: 100% 0%;
 }
 
+.cards,
+.card,
+.text {
+  font-family: 'Inter';
+}
+
+// Left (top) section styles
+
 .left {
+  width: 44vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0;
+  gap: 32px;
+
   .mission {
     font-family: 'SpaceMono';
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 18px;
@@ -18,18 +35,10 @@
     text-transform: uppercase;
     color: rgb(20, 192, 114);
   }
-  width: 44vw;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 32px;
 
   h1 {
     margin: 0;
     font-family: 'GintoNord';
-    font-style: normal;
     font-weight: 700;
     font-size: 44px;
     line-height: 120%;
@@ -38,8 +47,6 @@
 
   p {
     margin: 0;
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
@@ -54,8 +61,6 @@
     gap: 8px;
     width: 241px;
     height: 48px;
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 600;
     font-size: 14px;
     line-height: 16px;
@@ -67,16 +72,17 @@
   }
 }
 
+// Cards section styles
+
 .cards {
-  // width: 40vw;
-  font-family: 'Inter';
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  padding: 0px;
+  padding: 0;
   gap: 16px;
 }
+
 .card {
   display: flex;
   align-items: center;
@@ -89,6 +95,7 @@
   padding: 32px 24px;
   gap: 10px;
 }
+
 .text {
   display: flex;
   flex-direction: column;
@@ -96,39 +103,37 @@
   align-items: flex-start;
 
   h3 {
-    color: #121212;
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 600;
     font-size: 14px;
     line-height: 16px;
+    color: #121212;
   }
 
-  P {
-    font-family: 'Inter';
-    font-style: normal;
+  p {
     font-weight: 400;
     font-size: 14px;
     line-height: 21px;
     color: #5f6d65;
   }
 }
+
 .iconCard {
-  // width: 68px;
-  // height: 68px;
   padding: 20px;
   background: #f3f6f5;
-  border-radius: 50%; //you have to check it
+  border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
+
   img {
     width: 30px;
     height: 30px;
   }
 }
 
-//for deksktop
+// Media queries
+// for dekstop
+
 @media (min-width: 960px) {
   .main {
     height: 100vh;
@@ -137,9 +142,6 @@
       margin: 0;
     }
   }
-  // .cards {
-  //   margin-right: 2rem;
-  // }
   .card {
     gap: 28px;
   }
@@ -152,7 +154,8 @@
 }
 
 // for tablet
-@media (min-width: 701px) and (max-width: 960px) {
+
+@media (min-width: 701px) and (max-width: 1100px) {
   .main {
     height: 100vh;
     display: flex;
@@ -183,9 +186,10 @@
 }
 
 // for mobile
+
 @media (max-width: 701px) {
   .main {
-    margin-top: 2rem;
+    margin-top: 4rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -210,30 +214,30 @@
     margin-bottom: 2rem;
   }
 
-  // optional design for mobile cards view: icon on the left side of the text
-  //   .card {
-  //   width: 80vw;
-  //   height: 170px;
-  //   padding: 10px;
-  //   gap: 16px;
-  // }
+  // design for mobile cards view: icon on the left side of the text
+  .card {
+    width: 80vw;
+    height: 170px;
+    padding: 18px;
+    gap: 18px;
+  }
 
   // optional design for mobile cards view: text under the icon
-  .card {
-    flex-direction: column;
-    width: 80vw;
-    height: 220px;
-    padding: 14px;
-    gap: 0;
-  }
-  .text {
-    align-items: center;
-    gap: 6px;
-    h3 {
-      margin: 0;
-    }
-  }
-  .iconCard {
-    margin: 1rem;
-  }
+  // .card {
+  //   flex-direction: column;
+  //   width: 80vw;
+  //   height: 240px;
+  //   padding: 18px;
+  //   gap: 0;
+  // }
+  // .text {
+  //   align-items: center;
+  //   gap: 6px;
+  //   h3 {
+  //     margin: 0;
+  //   }
+  // }
+  // .iconCard {
+  //   margin: 1rem;
+  // }
 }
