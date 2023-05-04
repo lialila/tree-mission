@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.left}>
-        <h2>Mission</h2>
+        <p className={styles.mission}>Mission</p>
         <h1>This is the headline</h1>
         <p>
           Our mission? To make the protection of our natural resources more

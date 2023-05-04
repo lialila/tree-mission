@@ -4,20 +4,11 @@
   align-items: center;
   background-image: url('/Background-Shape.svg');
   background-repeat: no-repeat;
-  background-position: right top;
-  // height: 100vh;
+  background-position: 100% 0%;
 }
 
 .left {
-  width: 44vw;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 32px;
-
-  h2 {
+  .mission {
     font-family: 'SpaceMono';
     font-style: normal;
     font-weight: 700;
@@ -27,6 +18,13 @@
     text-transform: uppercase;
     color: rgb(20, 192, 114);
   }
+  width: 44vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 32px;
 
   h1 {
     margin: 0;
@@ -70,7 +68,7 @@
 }
 
 .cards {
-  width: 40vw;
+  // width: 40vw;
   font-family: 'Inter';
   display: flex;
   flex-direction: column;
@@ -78,12 +76,7 @@
   align-items: flex-start;
   padding: 0px;
   gap: 16px;
-
-  // width: 571px;
-  // left: 909px;
-  // top: 136px;
 }
-
 .card {
   display: flex;
   align-items: center;
@@ -101,7 +94,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  padding: 32px 24px;
 
   h3 {
     color: #121212;
@@ -121,64 +113,95 @@
     color: #5f6d65;
   }
 }
-
 .iconCard {
-  width: 68px;
-  height: 68px;
+  // width: 68px;
+  // height: 68px;
+  padding: 20px;
   background: #f3f6f5;
   border-radius: 50%; //you have to check it
   display: flex;
   justify-content: center;
   align-items: center;
   img {
-    width: 22px;
-    height: 24px;
+    width: 30px;
+    height: 30px;
   }
 }
 
-@media (min-width: 701px) and (max-width: 960px) {
+//for deksktop
+@media (min-width: 960px) {
   .main {
-    // margin: auto;
-    margin-top: 2rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 32px;
+    height: 100vh;
     h3,
     p {
       margin: 0;
     }
   }
+  // .cards {
+  //   margin-right: 2rem;
+  // }
+  .card {
+    gap: 28px;
+  }
+  .text {
+    gap: 6px;
+  }
+  .iconCard {
+    margin: 0rem;
+  }
+}
+
+// for tablet
+@media (min-width: 701px) and (max-width: 960px) {
+  .main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    h3,
+    p {
+      margin: 0;
+    }
+  }
+
   .left {
     width: 80vw;
+    margin-bottom: 2rem;
   }
   .cards {
     width: 80vw;
-    margin-bottom: 5rem;
   }
   .card {
     width: 80vw;
     padding: 10px;
   }
+  .iconCard {
+    margin: 1rem;
+  }
 }
+
+// for mobile
 @media (max-width: 701px) {
   .main {
-    // margin: auto;
     margin-top: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 32px;
-    h3,
+    gap: 44px;
+
     p {
       margin: 0;
     }
   }
   .left {
     width: 80vw;
-    button {
+
+    .mission,
+    button,
+    h1 {
       align-self: center;
     }
   }
@@ -186,129 +209,31 @@
     width: 80vw;
     margin-bottom: 2rem;
   }
+
+  // optional design for mobile cards view: icon on the left side of the text
+  //   .card {
+  //   width: 80vw;
+  //   height: 170px;
+  //   padding: 10px;
+  //   gap: 16px;
+  // }
+
+  // optional design for mobile cards view: text under the icon
   .card {
+    flex-direction: column;
     width: 80vw;
-    padding: 10px;
+    height: 220px;
+    padding: 14px;
+    gap: 0;
+  }
+  .text {
+    align-items: center;
+    gap: 6px;
+    h3 {
+      margin: 0;
+    }
+  }
+  .iconCard {
+    margin: 1rem;
   }
 }
-
-/* Enable hover only on non-touch devices */
-// @media (hover: hover) and (pointer: fine) {
-//   .card:hover {
-//     background: rgba(var(--card-rgb), 0.1);
-//     border: 1px solid rgba(var(--card-border-rgb), 0.15);
-//   }
-
-//   .card:hover span {
-//     transform: translateX(4px);
-//   }
-// }
-
-// @media (prefers-reduced-motion) {
-//   .card:hover span {
-//     transform: none;
-//   }
-// }
-
-// /* Mobile */
-// @media (max-width: 700px) {
-//   .content {
-//     padding: 4rem;
-//   }
-
-//   .grid {
-//     grid-template-columns: 1fr;
-//     margin-bottom: 120px;
-//     max-width: 320px;
-//     text-align: center;
-//   }
-
-//   .card {
-//     padding: 1rem 2.5rem;
-//   }
-
-//   .card h2 {
-//     margin-bottom: 0.5rem;
-//   }
-
-//   .center {
-//     padding: 8rem 0 6rem;
-//   }
-
-//   .center::before {
-//     transform: none;
-//     height: 300px;
-//   }
-
-//   .description {
-//     font-size: 0.8rem;
-//   }
-
-//   .description a {
-//     padding: 1rem;
-//   }
-
-//   .description p,
-//   .description div {
-//     display: flex;
-//     justify-content: center;
-//     position: fixed;
-//     width: 100%;
-//   }
-
-//   .description p {
-//     align-items: center;
-//     inset: 0 0 auto;
-//     padding: 2rem 1rem 1.4rem;
-//     border-radius: 0;
-//     border: none;
-//     border-bottom: 1px solid rgba(var(--callout-border-rgb), 0.25);
-//     background: linear-gradient(
-//       to bottom,
-//       rgba(var(--background-start-rgb), 1),
-//       rgba(var(--callout-rgb), 0.5)
-//     );
-//     background-clip: padding-box;
-//     backdrop-filter: blur(24px);
-//   }
-
-//   .description div {
-//     align-items: flex-end;
-//     pointer-events: none;
-//     inset: auto 0 0;
-//     padding: 2rem;
-//     height: 200px;
-//     background: linear-gradient(
-//       to bottom,
-//       transparent 0%,
-//       rgb(var(--background-end-rgb)) 40%
-//     );
-//     z-index: 1;
-//   }
-// }
-
-/* Tablet and Smaller Desktop */
-// @media (min-width: 701px) and (max-width: 1120px) {
-//   .grid {
-//     grid-template-columns: repeat(2, 50%);
-//   }
-// }
-
-// @media (prefers-color-scheme: dark) {
-//   .vercelLogo {
-//     filter: invert(1);
-//   }
-
-//   .logo {
-//     filter: invert(1) drop-shadow(0 0 0.3rem #ffffff70);
-//   }
-// }
-
-// @keyframes rotate {
-//   from {
-//     transform: rotate(360deg);
-//   }
-//   to {
-//     transform: rotate(0deg);
-//   }
-// }
