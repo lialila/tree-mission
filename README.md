@@ -40,6 +40,12 @@ The cards section styles are used to style the three cards in the right section 
 
 The component is responsive for mobile, tablet, and desktop. Additionally, the cards section has two options for styling in the mobile query.
 
+- The image is on the left side of the text
+
+![Screenshot 2023-05-04 233226_iphone12black_portrait](https://user-images.githubusercontent.com/116379561/236337927-6236cc63-56ab-4e14-8f52-33bc9ccacb82.png)
+
+- The image is on the top of the text
+
 ## Dependencies
 
 This component uses the following dependencies:
@@ -65,6 +71,5 @@ return (
 
 ## Visuals
 
-236337927-6236cc63-56ab-4e14-8f52-33bc9ccacb82.png)
 ![Screenshot 2023-05-04 233315_ipadmini_spacegrey_portrait](https://user-images.githubusercontent.com/116379561/236337956-5893cc71-f2dd-4ef5-9706-de928a309b43.png)
 ![Screenshot 2023-05-04 233348_macbookpro13_front](https://user-images.githubusercontent.com/116379561/236338117-0fde7972-a46c-4c8b-832b-ae47f158cc93.png)
