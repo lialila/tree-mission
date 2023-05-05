@@ -41,8 +41,7 @@ The cards section styles are used to style the three cards in the right section 
 The component is responsive for mobile, tablet, and desktop. Additionally, the cards section has two options for styling in the mobile query.
 
 - The image is on the left side of the text
-
-![Screenshot 2023-05-04 233226_iphone12black_portrait](https://user-images.githubusercontent.com/116379561/236337927-6236cc63-56ab-4e14-8f52-33bc9ccacb82.png)
+  ![Screenshot 2023-05-04 233226_iphone12black_portrait](https://user-images.githubusercontent.com/116379561/236417996-ec2d4175-1aee-41c1-b8a2-443efdfbe7ed.png)
 
 - The image is on the top of the text
   ![Screenshot 2023-05-05 003016_iphone12black_portrait](https://user-images.githubusercontent.com/116379561/236348222-28a22869-0bd2-471b-8248-79692d82ec25.png)
