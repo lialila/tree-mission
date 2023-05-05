@@ -31,7 +31,7 @@ export default function Home() {
             />
           </div>
           <div className={styles.text}>
-            <h3>Small Headline</h3>
+            <h2>Small Headline</h2>
             <p>
               Forest owners have accesss to expertise and inventory data needed
               to make smart decisions about their forest assets.
@@ -43,7 +43,7 @@ export default function Home() {
             <Image src="/Coin.svg" width="30" height="30" alt="Coin" />
           </div>
           <div className={styles.text}>
-            <h3>Small Headline</h3>
+            <h2>Small Headline</h2>
             <p>
               Forest owners know how to tap into the carbon market and generate
               revenit from carbon in their forests.
@@ -55,7 +55,7 @@ export default function Home() {
             <Image src="/Arrows.svg" width="30" height="30" alt="Arrows" />
           </div>
           <div className={styles.text}>
-            <h3>Small Headline</h3>
+            <h2>Small Headline</h2>
             <p>
               Forest owners and carbon buyers can easily buy and sell European
               carbon certificates on one platform.

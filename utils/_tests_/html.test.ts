@@ -1,11 +1,10 @@
-const { chromium } = require('playwright');
+import { expect, test } from '@playwright/test';
 
-(async () => {
-  const browser = await chromium.launch();
-  const page = await browser.newPage();
-  await page.goto('https://your-website.com');
+test('Homepage loads', async ({ page }) => {
+  // Navigate to the homepage
+  await page.goto('http://localhost:3000');
 
-  // test code here
-
-  await browser.close();
-})();
+  // Verify that the main heading is correct
+  const mainHeading = await page.textContent('h1');
+  expect(mainHeading).toBe('This is the headline');
+});
