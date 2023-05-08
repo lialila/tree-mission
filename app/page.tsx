@@ -21,7 +21,7 @@ export default function Home() {
         <button>Learn more about our mission</button>
       </div>
       <div className={styles.cards}>
-        <div className={styles.card}>
+        <div className={styles.card} data-testid="card">
           <div className={styles.iconCard}>
             <Image
               src="/Lightbulb.svg"
@@ -38,7 +38,7 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <div className={styles.card}>
+        <div className={styles.card} data-testid="card">
           <div className={styles.iconCard}>
             <Image src="/Coin.svg" width="30" height="30" alt="Coin" />
           </div>
@@ -50,7 +50,7 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <div className={styles.card}>
+        <div className={styles.card} data-testid="card">
           <div className={styles.iconCard}>
             <Image src="/Arrows.svg" width="30" height="30" alt="Arrows" />
           </div>
