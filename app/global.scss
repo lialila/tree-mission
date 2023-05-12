@@ -30,7 +30,7 @@ a:visited {
 }
 @font-face {
   font-family: 'GintoNord';
-  src: url('../public/fonts/ABCGintoNord-Bold.woff') format('woff');
+  src: url('../public/fonts/ABCGintoNord-Bold.woff2') format('woff2');
   font-weight: 800;
   font-style: normal;
   font-display: swap;
@@ -38,7 +38,7 @@ a:visited {
 
 @font-face {
   font-family: 'SpaceMono';
-  src: url('../public/fonts/SpaceMono-Bold.ttf') format('truetype');
+  src: url('../public/fonts/SpaceMono-Bold.woff2') format('woff2');
   font-weight: 800;
   font-style: normal;
   font-display: swap;
@@ -46,7 +46,7 @@ a:visited {
 
 @font-face {
   font-family: 'Inter';
-  src: url('../public/fonts/Inter-Regular.woff2') format('truetype');
+  src: url('../public/fonts/Inter-Regular.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
