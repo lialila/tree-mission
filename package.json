@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "dev": "next dev",
+    "lint": "next lint",
+    "start": "next start"
   },
   "dependencies": {
     "@playwright/test": "^1.33.0",
@@ -20,6 +20,7 @@
     "playwright": "^1.33.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "sass": "^1.62.1",
     "setimmediate": "^1.0.5",
     "ts-jest": "^29.1.0",
     "typescript": "5.0.4"
