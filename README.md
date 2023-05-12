@@ -15,28 +15,32 @@ This is a React component that can be used to create a homepage with two section
 
 1. Clone the project on your local machine (run each line individually):
 
-```git clone <url>
+```
+git clone <url>
 cd <repo name>
 ```
 
 2. Install the dependencies:
 
    ````
-   pnpm install```
+   pnpm install
+   ```
+
+
 
    ````
 
 3. Start the development server:
-   ````
-   pnpm dev```
-   ````
+   ```
+   pnpm dev
+   ```
 
 This will start the Next.js development server and the app will be available at http://localhost:3000.
 
 4. To run the tests:
 
-```pnpm jest
-
+```
+pnpm jest
 ```
 
 ## Styling
@@ -70,7 +74,3 @@ The component is responsive for mobile, tablet, and desktop. Additionally, the c
 
 ![Screenshot 2023-05-04 233315_ipadmini_spacegrey_portrait](https://user-images.githubusercontent.com/116379561/236337956-5893cc71-f2dd-4ef5-9706-de928a309b43.png)
 ![Screenshot 2023-05-04 233348_macbookpro13_front](https://user-images.githubusercontent.com/116379561/236338117-0fde7972-a46c-4c8b-832b-ae47f158cc93.png)
-
-```
-
-```
