@@ -72,6 +72,4 @@ The component is responsive for mobile, tablet, and desktop. Additionally, the c
 ![Screenshot 2023-05-04 233315_ipadmini_spacegrey_portrait](https://user-images.githubusercontent.com/116379561/236337956-5893cc71-f2dd-4ef5-9706-de928a309b43.png)
 ![Screenshot 2023-05-04 233348_macbookpro13_front](https://user-images.githubusercontent.com/116379561/236338117-0fde7972-a46c-4c8b-832b-ae47f158cc93.png)
 
-```
-
-```
+Thank you for viewing!
