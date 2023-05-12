@@ -10,24 +10,24 @@
   },
   "dependencies": {
     "@playwright/test": "^1.33.0",
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^14.0.0",
     "@types/node": "18.16.2",
     "@types/react": "18.2.0",
     "@types/react-dom": "18.2.1",
-    "@upleveled/eslint-config-upleveled": "^4.0.10",
+    "eslint-plugin-upleveled": "^2.1.7",
     "next": "13.3.1",
     "playwright": "^1.33.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "sass": "^1.62.1",
     "setimmediate": "^1.0.5",
-    "ts-jest": "^29.1.0",
     "typescript": "5.0.4"
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^14.0.0",
     "@types/jest": "^29.5.1",
     "jest": "^29.5.0",
-    "jest-environment-jsdom": "^29.5.0"
+    "jest-environment-jsdom": "^29.5.0",
+    "ts-jest": "^29.1.0"
   }
 }

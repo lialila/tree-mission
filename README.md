@@ -2,23 +2,37 @@
 
 This is a React component that can be used to create a homepage with two sections: the left section contains a mission statement and a call-to-action button, and the right section contains three cards that highlight different aspects of the mission. The component uses Next.js for server-side rendering and styling is done using SCSS.
 
-## Usage
+## Tech Stack
 
-To use this component, you will need to have Next.js installed in your project. Follow these steps to use the component:
+- Next.js (v13)
+- SCSS
+- TypeScript
+- JavaScript
+- Jest (testing)
+- Playwright (testing)
 
-1. Copy the code for the component into a new file in your Next.js project.
+## Setup instructions
 
-2. Import the component in your page file.
+1. Clone the project on your local machine (run each line individually):
 
-```
-import Home from '../components/Home';
-```
+´´´git clone <url>
+cd <repo name>
+´´´
 
-3. Use the component in your JSX.
+2. Install the dependencies:
+   ´´´
+   pnpm install´´´
 
-```
-<Home />
-```
+3. Start the development server:
+   ´´´
+   pnpm dev´´´
+
+This will start the Next.js development server and the app will be available at http://localhost:3000.
+
+4. To run the tests:
+
+´´´pnpm jest
+´´´
 
 ## Styling
 
@@ -47,22 +61,17 @@ The component is responsive for mobile, tablet, and desktop. Additionally, the c
   ![Screenshot 2023-05-05 003016_iphone12black_portrait](https://user-images.githubusercontent.com/116379561/236348222-28a22869-0bd2-471b-8248-79692d82ec25.png)
   ![Screenshot 2023-05-05 003053_iphone12black_portrait](https://user-images.githubusercontent.com/116379561/236348243-760ecfa9-c4cc-40f3-a644-20ad72569ffc.png)
 
-## Dependencies
-
-This component uses the following dependencies:
-
-- Next.js
-- SCSS
-
 ## Example
 
 Here is an example of how to use this component in a Next.js project:
 
-```
+````
+
 import Home from '../components/Home';
 
 export default function HomePage() {
 return (
+
 <div>
 <Home />
 </div>
@@ -74,3 +83,4 @@ return (
 
 ![Screenshot 2023-05-04 233315_ipadmini_spacegrey_portrait](https://user-images.githubusercontent.com/116379561/236337956-5893cc71-f2dd-4ef5-9706-de928a309b43.png)
 ![Screenshot 2023-05-04 233348_macbookpro13_front](https://user-images.githubusercontent.com/116379561/236338117-0fde7972-a46c-4c8b-832b-ae47f158cc93.png)
+````
